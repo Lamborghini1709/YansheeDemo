@@ -1835,7 +1835,7 @@ def stopAllOp(url1, url2):
 
 def getPrompts():
     # with open('prompts.txt', 'r', encoding='utf8') as f:
-    with open('input.txt', 'r', encoding='utf8') as f:
+    with open('prompts.txt', 'r', encoding='utf8') as f:
         prompts = f.readlines()
         prompts = [item.strip() for item in prompts if item.strip()]
     random.shuffle(prompts)
